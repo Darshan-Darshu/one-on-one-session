@@ -1,0 +1,41 @@
+.paper {
+    background-color: #610b9b;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.grid {
+    border: 0.5px solid #610b9b;
+    background: #610b9b;
+}
+
+.grid h1 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .paper {
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+    .paper {
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 550px;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 900px) {
+    .paper {
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 750px;
+    }
+}

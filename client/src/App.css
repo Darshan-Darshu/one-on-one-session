@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 12px;
+    background-color: #610b9b;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    font-size: 24px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 300px;
+        margin: 20px auto;
+    }
+}
